@@ -197,6 +197,9 @@
         .absolute-block {
             justify-content: flex-end;
             top: 26px;
+            @media(max-width: 1030px) {
+                left: 0
+            }
         }
         .title-circle {
             font-size: 50px;
@@ -206,6 +209,7 @@
     }
     &-materials {
         padding-bottom: 20px;
+        padding-top: 50px;
         .material-block {
             position: relative;
             p {
@@ -287,7 +291,7 @@
     &-concept {
         .concept-block {
             background: #f5f6f7 url("../images/bg7.png") no-repeat center bottom;
-            background-size: 100% auto;
+            background-size: 100% 100%;
             padding-top: 55px;
             padding-bottom: 60px;
             span {
