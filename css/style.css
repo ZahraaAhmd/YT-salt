@@ -1,0 +1,539 @@
+/**** site colors ****/
+@import url("https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;600;700&display=swap");
+@font-face {
+  font-family: "Beautiful ES";
+  font-style: "";
+  font-weight: "";
+  src: url("../fonts/BEAUE___.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Yu Gothic";
+  font-style: "";
+  font-weight: "";
+  src: url("../fonts/yugothib.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Adobe Garamond";
+  font-style: "";
+  font-weight: "";
+  src: url("../fonts/Adobe Garamond Pro Regular.ttf") format("truetype");
+}
+
+/**** page general styles ****/
+body {
+  font-family: 'yu-gothic-light-regular', sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  color: #000;
+}
+
+.container {
+  width: 100%;
+  max-width: 1030px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.btn-secondary {
+  background: #000;
+  border-color: #000;
+}
+
+/*** texts style ****/
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Shippori Mincho', serif;
+}
+
+/**** backgrounds style  *****/
+.bg-light-gray {
+  background: #eff0ec;
+}
+
+.bg-light-purple {
+  background: #ac8dc0;
+}
+
+.bg-orange {
+  background: #f3ae1b;
+}
+
+.bg-dark-rose {
+  background: #f189a2;
+}
+
+.bg-rose {
+  background: #f587c0;
+}
+
+.bg-olive {
+  background: #7e9b59;
+}
+
+.bg-light-purple-opacity {
+  background: #f0edfc;
+}
+
+.bg-orange-opacity {
+  background: #fcf0d8;
+}
+
+.bg-dark-rose-opacity {
+  background: #ffe5eb;
+}
+
+.bg-rose-opacity {
+  background: #ffe8f3;
+}
+
+.bg-olive-opacity {
+  background: #ecf8de;
+}
+
+.text-light-purple-opacity {
+  color: #e2cfee;
+}
+
+.text-orange-opacity {
+  color: #fed887;
+}
+
+.text-dark-rose-opacity {
+  color: #fdc6d3;
+}
+
+.text-rose-opacity {
+  color: #fcbdde;
+}
+
+.text-olive-opacity {
+  color: #cde3b2;
+}
+
+/**** titles style *****/
+.title {
+  font-family: 'Shippori Mincho', serif;
+  font-size: 45px;
+  font-weight: 500;
+  line-height: 20px;
+  background: url("../images/bg5.jpg") no-repeat center center;
+  background-size: 100% 100%;
+  /* padding-top: 25px;
+    padding-bottom: 25px;*/
+  min-height: 103px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title .num {
+  font-size: 62px;
+  line-height: 19px;
+}
+
+.products-title {
+  background: url("../images/title-bg.png") no-repeat center center;
+  background-size: 100% 100%;
+  padding: 10px 0;
+}
+
+.products-title h3 {
+  font-size: 60px;
+  letter-spacing: -1px;
+  color: #22915c;
+  font-weight: 500;
+  margin: 0;
+}
+
+.products-title h3 small {
+  font-size: 23px;
+  line-height: 63px;
+}
+
+.section-hero {
+  position: relative;
+}
+
+.section-hero .title-circle {
+  position: absolute;
+  top: 44px;
+  width: 310px;
+  height: 310px;
+  border-radius: 50%;
+  filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.2));
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+  font-family: 'Shippori Mincho', serif;
+  font-size: 55px;
+  letter-spacing: -1px;
+  line-height: 67px;
+  color: #000000;
+  font-weight: 500;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px rgba(255, 255, 255, 0.7), 0 0 40px rgba(255, 255, 255, 0.7), 0 0 50px rgba(255, 255, 255, 0.7), 0 0 60px rgba(255, 255, 255, 0.7), 0 0 70px rgba(255, 255, 255, 0.7);
+}
+
+.section-hero .title-circle .point-title {
+  font-size: 89px;
+  letter-spacing: -2px;
+  color: #999999;
+  font-family: "Beautiful ES";
+  text-align: center;
+  vertical-align: middle;
+}
+
+.section-hero .title-circle .point-title span {
+  font-size: 122px;
+}
+
+.section-hero .title-circle .point-title img {
+  margin-top: -10px;
+}
+
+.section-hero .title-circle .point-title .img-rotate {
+  transform: rotate(180deg);
+}
+
+/**** home page sections style ******/
+.YT-hero {
+  background: #fff url("../images/bg1.png") no-repeat right 0 top 0;
+  background-size: 100% 90%;
+  padding: 22px 0 38px 0;
+}
+
+.YT-hero .logo {
+  margin-bottom: 40px;
+}
+
+.YT-hero .text-box {
+  max-width: 650px;
+}
+
+.YT-hero h1 {
+  font-size: 67px;
+  letter-spacing: -2px;
+  line-height: 113px;
+  margin-bottom: 30px;
+  color: #090404;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px rgba(255, 255, 255, 0.5), 0 0 40px rgba(255, 255, 255, 0.5), 0 0 50px rgba(255, 255, 255, 0.5), 0 0 60px rgba(255, 255, 255, 0.5), 0 0 70px rgba(255, 255, 255, 0.5);
+}
+
+.YT-hero h1 span {
+  display: block;
+  line-height: 85px;
+  text-align: right;
+}
+
+.YT-hero .bg-light-green {
+  background: rgba(34, 145, 92, 0.55);
+  color: #fff;
+  padding: 7px;
+  margin-bottom: 100px;
+}
+
+.YT-hero .bg-light-green h2 {
+  border: 1px solid #fff;
+  font-size: 44px;
+  letter-spacing: -1px;
+  line-height: 60px;
+  font-weight: 500;
+  margin: 0;
+  padding: 20px 30px 20px 40px;
+}
+
+.YT-hero .bg-light-green h2 span {
+  display: block;
+  text-align: right;
+}
+
+.YT-hero .btn {
+  filter: drop-shadow(2.5px 4.33px 2.5px rgba(0, 0, 0, 0.2));
+  background: url("../images/button-bg.png") no-repeat center center;
+  background-size: 100% 100%;
+  border: 0;
+  width: 100%;
+  max-width: 401px;
+  min-height: 79px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Shippori Mincho', serif;
+  font-size: 33px;
+  letter-spacing: -1px;
+  line-height: 48px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.YT-hero .btn img {
+  margin-left: 15px;
+}
+
+.YT-hero .btn:hover {
+  color: #7ad6aa;
+}
+
+.YT-products {
+  background-color: #eff0ec;
+  padding-bottom: 55px;
+}
+
+.YT-products .title {
+  letter-spacing: -2px;
+}
+
+.YT-products .product {
+  margin-top: 34px;
+  border: 10px solid #ffffff;
+}
+
+.YT-products .product img {
+  width: 100%;
+  margin: -10px 10px;
+}
+
+.YT-products .product .col {
+  padding: 25px;
+  position: relative;
+}
+
+.YT-products .product .product-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.YT-products .product .product-head .product-num {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  padding: 4px;
+}
+
+.YT-products .product .product-head .product-num span {
+  width: 100%;
+  height: 100%;
+  box-shadow: 0px 0px 0 1px #fff;
+  border-radius: 50%;
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 100px;
+  line-height: 20px;
+  font-family: "Beautiful ES";
+}
+
+.YT-products .product .product-head .product-name {
+  padding-left: 20px;
+  font-family: 'Shippori Mincho', serif;
+  font-size: 46px;
+  letter-spacing: 0px;
+  font-weight: 500;
+}
+
+.YT-products .product .product-head .product-name span {
+  display: block;
+  font-size: 18px;
+}
+
+.YT-products .product p {
+  font-size: 28px;
+  line-height: 40px;
+  color: #060101;
+  font-weight: 500;
+}
+
+.YT-products .product .absoluate-name {
+  position: absolute;
+  right: 0;
+  font-size: 137px;
+  letter-spacing: -1px;
+  line-height: 61px;
+  font-family: "Beautiful ES";
+}
+
+.YT-products .product:nth-child(even) .row {
+  flex-direction: row-reverse;
+}
+
+.YT-products .product:nth-child(even) .absoluate-name {
+  left: 25px;
+  right: auto;
+}
+
+.YT-intro {
+  padding-bottom: 20px;
+}
+
+.YT-intro .title {
+  margin-bottom: 34px;
+}
+
+.YT-intro img {
+  margin-bottom: 40px;
+}
+
+.YT-intro p {
+  font-size: 24px;
+  letter-spacing: -1px;
+  line-height: 40px;
+  margin-bottom: 40px;
+}
+
+.YT-point2.section-hero .title-circle {
+  font-size: 50px;
+  line-height: 60px;
+  color: #020302;
+  top: 26px;
+}
+
+.YT-materials {
+  padding-bottom: 20px;
+}
+
+.YT-materials .material-block {
+  position: relative;
+}
+
+.YT-materials .material-block p {
+  margin-bottom: 50px;
+  font-size: 24px;
+  letter-spacing: -1px;
+  line-height: 40px;
+}
+
+.YT-materials .material-block img {
+  margin-bottom: -40px;
+}
+
+.YT-materials .material-block .material-name {
+  background: url("../images/green-bg.png") no-repeat center center;
+  font-size: 50px;
+  letter-spacing: 5px;
+  line-height: 75px;
+  color: #ffffff;
+  text-align: center;
+  filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.75));
+  position: absolute;
+  right: 0;
+  top: 30px;
+  width: 100%;
+  max-width: 1000px;
+}
+
+.YT-materials .material-block .material-name span {
+  font-family: "Beautiful ES";
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.YT-materials .material-block .material-name img {
+  vertical-align: middle;
+  margin-bottom: 0;
+}
+
+.YT-testmonials {
+  background: url("../images/bg4.jpg") no-repeat center center;
+  background-size: 100% 100%;
+  margin-top: 55px;
+}
+
+.YT-testmonials .title {
+  background: url("../images/title-bg2.png") no-repeat center center;
+  background-size: 100% 100%;
+  color: #fff;
+  font-size: 89px;
+  font-family: "Beautiful ES";
+  color: #fffefe;
+  line-height: 0.556;
+  text-align: center;
+  margin-bottom: 38px;
+}
+
+.YT-testmonials .title span {
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  font-size: 26px;
+  line-height: 1;
+  display: inline-block;
+  margin-left: 15px;
+  padding-top: 15px;
+}
+
+.YT-testmonials .opinion-box {
+  background: url("../images/user-bg.png") no-repeat;
+  background-size: 100% 100%;
+  padding: 30px 30px 30px 86px;
+}
+
+.YT-testmonials .opinion-box p {
+  margin-bottom: 0;
+}
+
+.YT-testmonials .row:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.YT-testmonials .row:nth-child(even) .opinion-box {
+  background: url("../images/user-bg2.png") no-repeat;
+  background-size: 100% 100%;
+  padding: 30px 86px 30px 30px;
+}
+
+.YT-faq {
+  font-size: 24px;
+  line-height: 1.583;
+}
+
+.YT-faq .Q-circle {
+  font-family: "Adobe Garamond";
+  font-size: 45pt;
+  line-height: 2.125;
+  font-weight: 400;
+  border-radius: 50%;
+  background-color: #c2ccc8;
+  width: 69px;
+  height: 69px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.YT-faq .Q-info {
+  width: calc(100% - 69px);
+  padding-left: 25px;
+}
+
+.YT-faq .text-green {
+  color: #218b5b;
+  font-weight: bold;
+}
+
+.YT-faq .text-green .Q-circle {
+  color: #fff;
+  background-color: #2eab78;
+}
+
+.YT-faq .title {
+  margin-bottom: 15px;
+}
+
+.YT-faq .faq-block {
+  padding-bottom: 15px;
+  padding-top: 35px;
+  border-bottom: 2px dotted #36ba88;
+}
+
+.YT-faq .faq-block .d-flex {
+  margin-bottom: 22px;
+}
+/*# sourceMappingURL=style.css.map */

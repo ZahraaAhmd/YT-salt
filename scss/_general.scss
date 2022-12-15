@@ -1,0 +1,182 @@
+/**** page general styles ****/
+
+body {
+    font-family: 'yu-gothic-light-regular', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #000;
+}
+
+.container {
+    width: 100%;
+    max-width: 1030px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.btn {
+    &-secondary {
+        background: #000;
+        border-color: #000;
+    }
+}
+
+
+/*** texts style ****/
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Shippori Mincho', serif;
+}
+
+
+/**** backgrounds style  *****/
+
+$light-green:#92d1b4;
+$green:#22915c;
+$dark-green:#218b5b;
+$green2:#2eab78;
+$olive:#7e9b59;
+$light-purple:#ac8dc0;
+$orange:#f3ae1b;
+$dark-rose: #f189a2;
+$rose:#f587c0;
+.bg {
+    &-light-gray {
+        background: #eff0ec
+    }
+    &-light-purple {
+        background: $light-purple
+    }
+    &-orange {
+        background: $orange;
+    }
+    &-dark-rose {
+        background: $dark-rose
+    }
+    &-rose {
+        background: $rose
+    }
+    &-olive {
+        background: $olive;
+    }
+    &-light-purple-opacity {
+        background: #f0edfc
+    }
+    &-orange-opacity {
+        background: #fcf0d8;
+    }
+    &-dark-rose-opacity {
+        background: #ffe5eb
+    }
+    &-rose-opacity {
+        background: #ffe8f3
+    }
+    &-olive-opacity {
+        background: #ecf8de;
+    }
+}
+
+.text {
+    &-light-purple-opacity {
+        color: #e2cfee
+    }
+    &-orange-opacity {
+        color: #fed887
+    }
+    &-dark-rose-opacity {
+        color: #fdc6d3
+    }
+    &-rose-opacity {
+        color: #fcbdde;
+    }
+    &-olive-opacity {
+        color: #cde3b2
+    }
+}
+
+
+/**** titles style *****/
+
+.title {
+    font-family: 'Shippori Mincho', serif;
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 20px;
+    background: url("../images/bg5.jpg") no-repeat center center;
+    background-size: 100% 100%;
+    /* padding-top: 25px;
+    padding-bottom: 25px;*/
+    min-height: 103px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .num {
+        font-size: 62px;
+        line-height: 19px;
+    }
+}
+
+.products-title {
+    background: url("../images/title-bg.png") no-repeat center center;
+    background-size: 100% 100%;
+    padding: 10px 0;
+    h3 {
+        font-size: 60px;
+        letter-spacing: -1px;
+        color: $green;
+        font-weight: 500;
+        margin: 0;
+        small {
+            font-size: 23px;
+            line-height: 63px;
+        }
+    }
+}
+
+.section-hero {
+    position: relative;
+    .container {}
+    .title-circle {
+        position: absolute;
+        top: 44px;
+        width: 310px;
+        height: 310px;
+        border-radius: 50%;
+        filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.2));
+        background-color: rgba(255, 255, 255, 0.8);
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: center;
+        font-family: 'Shippori Mincho', serif;
+        font-size: 55px;
+        letter-spacing: -1px;
+        line-height: 67px;
+        color: #000000;
+        font-weight: 500;
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px rgba(255, 255, 255, 0.7), 0 0 40px rgba(255, 255, 255, 0.7), 0 0 50px rgba(255, 255, 255, 0.7), 0 0 60px rgba(255, 255, 255, 0.7), 0 0 70px rgba(255, 255, 255, 0.7);
+        .point-title {
+            font-size: 89px;
+            letter-spacing: -2px;
+            color: #999999;
+            font-family: "Beautiful ES";
+            text-align: center;
+            vertical-align: middle;
+            span {
+                font-size: 122px
+            }
+            img {
+                margin-top: -10px;
+            }
+            .img-rotate {
+                transform: rotate(180deg);
+            }
+        }
+    }
+}
