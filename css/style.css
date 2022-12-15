@@ -767,6 +767,9 @@ h4 {
     text-align: center;
     filter: drop-shadow(0 0 5px rgba(1, 92, 48, 0.5));
   }
+  .YT-hero .bg-light-green h2 span {
+    text-align: center;
+  }
   .YT-hero .btn {
     max-width: 636px;
     height: 103px;
@@ -848,6 +851,9 @@ h4 {
     max-height: 150px;
     overflow: hidden;
   }
+  .YT-testmonials .row:nth-child(even) .opinion-box {
+    padding: 28px 50px 30px 26px;
+  }
   .YT-concept {
     text-align: center;
   }
@@ -862,6 +868,18 @@ h4 {
   }
   .YT-concept .btn {
     margin: 30px auto 50px auto;
+  }
+  .YT-faq .title {
+    font-size: 35pt;
+  }
+  .YT-faq .Q-circle {
+    width: 50px;
+    height: 50px;
+    font-size: 24pt;
+  }
+  .YT-faq .Q-info {
+    width: calc(100% - 50px);
+    padding-left: 16px;
   }
   .products-title img {
     max-width: 194px;
@@ -881,6 +899,261 @@ h4 {
   }
   .section-hero .title-circle .point-title span {
     font-size: 91px;
+  }
+  .YT-products .product .product-head .product-name {
+    font-size: 35px;
+  }
+  .YT-products .product .product-head .product-name span {
+    font-size: 14px;
+  }
+  .YT-products .product .absoluate-name {
+    font-size: 100px;
+  }
+  .YT-faq {
+    font-size: 18px;
+  }
+  .YT-faq .text-green {
+    font-weight: 500;
+  }
+}
+
+@media (max-width: 700px) {
+  .YT-hero h1 {
+    font-size: 50px;
+    line-height: 57px;
+    margin-top: -35px;
+  }
+  .products-title img {
+    max-width: 140px;
+  }
+  .products-title h3 {
+    font-size: 30px;
+  }
+  .products-title h3 small {
+    font-size: 16px;
+  }
+  .YT-hero .bg-light-green {
+    padding: 7px 25px;
+    max-width: auto;
+    display: inline-block;
+  }
+  .YT-hero .bg-light-green h2 {
+    font-size: 20px;
+  }
+  .title {
+    font-size: 30px;
+  }
+  .title .num {
+    font-size: 40px;
+  }
+  .YT-intro p {
+    font-size: 20px;
+  }
+  .YT-materials .material-block p {
+    margin-bottom: 30px;
+    font-size: 20px;
+  }
+  .YT-testmonials {
+    margin-top: 0;
+  }
+  .YT-testmonials .title {
+    font-size: 65px;
+  }
+  .YT-testmonials .title span {
+    font-size: 16px;
+    padding-top: 9px;
+  }
+  .YT-concept .concept-block p {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 650px) {
+  .YT-testmonials .col-auto img {
+    width: 69px;
+  }
+  .YT-testmonials .opinion-box {
+    font-size: 17px;
+  }
+  .YT-materials .material-block p {
+    font-size: 17px;
+    line-height: 1.9;
+  }
+  .YT-materials .material-block .material-name {
+    font-size: 22px;
+  }
+  .section-hero .title-circle {
+    width: 235px;
+    height: 235px;
+    font-size: 30px;
+    letter-spacing: -1px;
+    line-height: 45px;
+  }
+  .section-hero .title-circle .point-title {
+    font-size: 60px;
+    margin-bottom: 10px;
+  }
+  .YT-point2.section-hero .title-circle {
+    font-size: 30px;
+    line-height: 41px;
+  }
+  .YT-point2.section-hero .absolute-block,
+  .section-hero .absolute-block {
+    padding: 0;
+  }
+  .YT-products .product {
+    margin-top: 110px;
+  }
+  .YT-products .product .row {
+    margin: 0;
+    flex-direction: column-reverse;
+  }
+  .YT-products .product .row .col-auto {
+    width: 100%;
+    text-align: center;
+  }
+  .YT-products .product .row .col {
+    padding: 10px 15px 25px 15px;
+  }
+  .YT-products .product img {
+    width: 180px;
+    height: 180px;
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: -110px;
+  }
+  .YT-products .product p {
+    padding-right: 0;
+  }
+  .YT-products .product .absoluate-name {
+    opacity: 0.5;
+  }
+  .YT-products .product:nth-child(even) .row {
+    margin: 0;
+    flex-direction: column-reverse;
+  }
+  .YT-products .product:nth-child(even) img {
+    width: 180px;
+    height: 180px;
+    margin-right: 0;
+    margin-left: 0 !important;
+    margin-top: -110px;
+  }
+  .YT-products .product:nth-child(even) .absoluate-name {
+    left: auto;
+    right: 0;
+  }
+  .YT-products .product:nth-child(even) p {
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .title {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+  .title .num {
+    font-size: 30px;
+  }
+  .products-title img {
+    display: none;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .YT-hero .btn {
+    font-size: 24px;
+    height: 80px;
+    max-width: 320px;
+  }
+  .YT-products .product p {
+    font-size: 20px;
+  }
+  .YT-testmonials .opinion-box {
+    font-size: 15px;
+    padding: 16px 20px 20px 40px;
+  }
+  .YT-testmonials .row:nth-child(even) .opinion-box {
+    padding: 16px 40px 20px 20px;
+  }
+  .YT-concept .concept-block h2 {
+    font-size: 70px;
+    line-height: 0.8;
+  }
+  .YT-concept .concept-block h2 small {
+    font-size: 20px;
+    vertical-align: 4px;
+  }
+  .YT-concept .concept-block p {
+    font-size: 16px;
+  }
+  .YT-concept .btn {
+    max-width: 310px;
+    min-height: 85px;
+    font-size: 18px;
+  }
+  .YT-materials .material-block .material-name {
+    padding: 0 15px;
+    line-height: 60px;
+  }
+  .section-hero .title-circle {
+    zoom: 0.8;
+  }
+  .YT-hero h1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 38px;
+    line-height: 47px;
+  }
+  .YT-hero .bg-light-green {
+    margin-bottom: 50px;
+  }
+  .YT-hero .bg-light-green h2 {
+    padding: 10px 10px 10px 10px;
+    line-height: 50px;
+  }
+  .YT-products .product .product-head .product-name {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 400px) {
+  .section-hero .title-circle {
+    zoom: 0.7;
+  }
+  .YT-intro p {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+  }
+  .YT-products .product {
+    margin-top: 85px;
+  }
+  .YT-products .product img,
+  .YT-products .product:nth-child(even) img {
+    width: 120px;
+    height: 120px;
+    margin-top: -80px;
+  }
+  .YT-products .product .product-head .product-num {
+    width: 45px;
+    height: 45px;
+  }
+  .YT-products .product .product-head .product-num span {
+    font-size: 65px;
+    line-height: 1;
+  }
+  .YT-products .product .product-head .product-name {
+    padding-left: 10px;
+    font-size: 26px;
+    width: calc(100% - 45px);
+  }
+  .products-title h3 {
+    font-size: 26px;
+  }
+  .products-title h3 small {
+    font-size: 14px;
   }
 }
 /*# sourceMappingURL=style.css.map */
