@@ -97,6 +97,24 @@ $rose:#f587c0;
     }
 }
 
+.border {
+    &-light-purple {
+        border-color: $light-purple
+    }
+    &-orange {
+        border-color: $orange;
+    }
+    &-dark-rose {
+        border-color: $dark-rose
+    }
+    &-rose {
+        border-color: $rose
+    }
+    &-olive {
+        border-color: $olive;
+    }
+}
+
 
 /**** titles style *****/
 
@@ -138,10 +156,14 @@ $rose:#f587c0;
 
 .section-hero {
     position: relative;
-    .container {}
-    .title-circle {
+    .absolute-block {
         position: absolute;
         top: 44px;
+        width: 100%;
+        max-width: 1000px;
+        display: flex;
+    }
+    .title-circle {
         width: 310px;
         height: 310px;
         border-radius: 50%;
