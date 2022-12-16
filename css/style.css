@@ -696,7 +696,7 @@ h4 {
 
 /**** footer style *****/
 footer {
-  background: #F9F8F7;
+  background: #EFF0EC;
   padding-top: 50px;
   padding-bottom: 30px;
 }
@@ -705,6 +705,7 @@ footer ul {
   list-style-type: none;
   list-style: none;
   padding: 0;
+  margin-bottom: 20px;
   display: flex;
   flex-wrap: wrap;
   align-content: center;
