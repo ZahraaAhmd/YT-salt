@@ -4,14 +4,14 @@
   font-family: "Beautiful ES";
   font-style: "";
   font-weight: "";
-  src: url("../fonts/BEAUE___.ttf") format("truetype");
+  src: url("../fonts/Beautiful.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Yu Gothic";
   font-style: "";
   font-weight: "";
-  src: url("../fonts/yugothib.ttf") format("truetype");
+  src: url("../fonts/yumin.ttf") format("truetype");
 }
 
 @font-face {
@@ -493,18 +493,18 @@ h4 {
 }
 
 .YT-materials .material-block .material-name {
-  background: url("../images/green-bg.png") no-repeat center center;
   font-size: 50px;
   letter-spacing: 5px;
   line-height: 75px;
-  color: #ffffff;
+  color: #fff;
   text-align: center;
-  filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.75));
+  /* filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.75)); */
   position: absolute;
   right: 0;
   top: 30px;
   width: 100%;
-  max-width: 1000px;
+  max-width: 900px;
+  background-image: linear-gradient(to right, rgba(10, 103, 61, 0), rgba(10, 103, 61, 0.33), rgba(10, 103, 61, 0.75), rgba(10, 103, 61, 0.75), rgba(10, 103, 61, 0.75), rgba(10, 103, 61, 0.8), rgba(10, 103, 61, 0.8), rgba(10, 103, 61, 0.8), rgba(10, 103, 61, 0.59), rgba(10, 103, 61, 0.24), #eff0ec, #eff0ec);
 }
 
 .YT-materials .material-block .material-name span {
@@ -515,6 +515,12 @@ h4 {
 .YT-materials .material-block .material-name img {
   vertical-align: middle;
   margin-bottom: 0;
+}
+
+.YT-materials .material-block:nth-child(even) .material-name {
+  right: auto;
+  left: 0;
+  background-image: linear-gradient(to left, rgba(10, 103, 61, 0), rgba(10, 103, 61, 0.33), rgba(10, 103, 61, 0.75), rgba(10, 103, 61, 0.75), rgba(10, 103, 61, 0.75), rgba(10, 103, 61, 0.8), rgba(10, 103, 61, 0.8), rgba(10, 103, 61, 0.8), rgba(10, 103, 61, 0.59), rgba(10, 103, 61, 0.24), #eff0ec, #eff0ec);
 }
 
 .YT-testmonials {
@@ -730,6 +736,14 @@ footer ul li a:hover {
 }
 
 /**** media query style ******/
+@media (max-width: 1250px) {
+  .YT-materials .material-block .material-name,
+  .YT-materials .material-block:nth-child(even) .material-name {
+    max-width: 600px;
+    background: rgba(10, 103, 61, 0.8);
+  }
+}
+
 @media (max-width: 991.98px) {
   body {
     overflow-x: hidden;
